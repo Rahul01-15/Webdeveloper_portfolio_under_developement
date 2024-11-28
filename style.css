@@ -47,7 +47,8 @@
 margin-right: 18px;
 }
 .navitem-1>ul>a:hover{
-    border-bottom: 2px solid wheat;
+    border-bottom: 2px solid rgb(245, 190, 90);
+    color: #f4d76f;
 }
 /* BODY CONTENt */
 
@@ -75,9 +76,7 @@ margin-right: 18px;
   opacity: 0.7;
   padding-right: 3px;
 }
-.content{
-  margin-top: 25%;
-}
+
 .hire{
   display: flex;
  justify-content: center;
@@ -92,5 +91,5 @@ margin-right: 18px;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: smaller;
+  
 }
