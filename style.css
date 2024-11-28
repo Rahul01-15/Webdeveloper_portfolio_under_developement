@@ -78,3 +78,19 @@ margin-right: 18px;
 .content{
   margin-top: 25%;
 }
+.hire{
+  display: flex;
+ justify-content: center;
+}
+
+.me>button{
+  text-align: center;
+  background-color:#ffbd39;
+  border-radius: 5px;
+   
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: smaller;
+}
