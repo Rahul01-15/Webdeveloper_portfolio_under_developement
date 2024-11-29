@@ -59,6 +59,11 @@ margin-right: 18px;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  letter-spacing: 10px;
+}
+.content>h4:hover{
+  color: rgb(255, 227, 88);
+  text-transform: lowercase;
 }
 .content>p{
   font-family: "Montserrat", sans-serif;
@@ -84,7 +89,7 @@ margin-right: 18px;
 
 .me>button{
   text-align: center;
-  background-color:#ffbd39;
+  background-color:#ffffff;
   border-radius: 5px;
    
   font-family: "Montserrat", sans-serif;
@@ -92,4 +97,11 @@ margin-right: 18px;
   font-weight: 600;
   font-style: normal;
   
+}
+.me>button:hover{
+  background-color: rgb(251, 173, 49);
+  color: black;
+  transform: translateY(-15px);
+  transition-duration: 350ms;
+ 
 }
