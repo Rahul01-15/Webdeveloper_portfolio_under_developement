@@ -5,12 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-
+*{
+overflow-x: hidden;
+}
 
 
 .nav{
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content:space-between;
     margin-top: 11px;
 
@@ -51,33 +53,32 @@ margin-right: 18px;
     color: #f4d76f;
     
 }
+/* BODY CONTENT */
+@keyframes fade-in-bottom-normal {0% { transform: translateY(50px); opacity: 0; } 100% { transform: translateY(0); opacity: 1;} }
+#Home{
 
-.navitem-1>ul>a:active{
-  border-bottom: 2px solid rgb(245, 190, 90);
-  color: #f4d76f;
+  animation: fade-in-bottom-normal 1200ms ease-in 0s 1 normal;
 }
-/* BODY CONTENt */
-
+@keyframes fade-in-bottom-normal {0% { transform: translateY(50px); opacity: 0; } 100% { transform: translateY(0); opacity: 1;} }
 .content>h4{
   text-align: center;
-  
+  animation: fade-in-bottom-normal 1s ease-out 0s 1 normal;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
   letter-spacing: 5px;
 }
-.content>h4:hover{
-  color: rgb(255, 227, 88);
-  text-transform: lowercase;
-}
+
 .content>p{
   font-family: "Montserrat", sans-serif;
+
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   opacity: 0.7;
+  
 }
 .NAME{
   font-family: "Montserrat", sans-serif;
@@ -97,7 +98,7 @@ margin-right: 18px;
   text-align: center;
   background-color:#ffffff;
   border-radius: 5px;
-   
+ 
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -112,6 +113,7 @@ margin-right: 18px;
  
 }
 /* TABLE STYLING  */
+
 
 td{
   padding-left: 19px;
@@ -132,7 +134,7 @@ td{
   font-weight: 900;
   font-style: normal;
   letter-spacing: 1px;
-  font-size:24px;
+  
 }
 #about{
   border-radius: 12px;
